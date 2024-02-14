@@ -7,23 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBF18CF92B7C334C000F7E58 /* MoreQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF18CF82B7C334C000F7E58 /* MoreQuestions.swift */; };
 		CBF2B3AF2B7C2A7F0095E8DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2B3AE2B7C2A7F0095E8DF /* AppDelegate.swift */; };
 		CBF2B3B12B7C2A7F0095E8DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2B3B02B7C2A7F0095E8DF /* SceneDelegate.swift */; };
-		CBF2B3B32B7C2A7F0095E8DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2B3B22B7C2A7F0095E8DF /* ViewController.swift */; };
-		CBF2B3B62B7C2A7F0095E8DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF2B3B42B7C2A7F0095E8DF /* Main.storyboard */; };
-		CBF2B3B82B7C2A820095E8DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF2B3B72B7C2A820095E8DF /* Assets.xcassets */; };
+		CBF2B3B32B7C2A7F0095E8DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2B3B22B7C2A7F0095E8DF /* MainViewController.swift */; };
 		CBF2B3BB2B7C2A820095E8DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF2B3B92B7C2A820095E8DF /* LaunchScreen.storyboard */; };
+		CBF2B3C32B7C2AEF0095E8DF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2B3C22B7C2AEF0095E8DF /* Question.swift */; };
+		CBF2B3C52B7C2B050095E8DF /* QuizEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2B3C42B7C2B050095E8DF /* QuizEngine.swift */; };
+		CBF2B3CA2B7C2D750095E8DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF2B3C82B7C2D750095E8DF /* Main.storyboard */; };
+		CBF2B3CC2B7C2E0E0095E8DF /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = CBF2B3CB2B7C2E0E0095E8DF /* Main.storyboard */; };
+		CBF2B3CE2B7C2E490095E8DF /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF2B3CD2B7C2E490095E8DF /* assets.xcassets */; };
+		CBF2B3D02B7C2E870095E8DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF2B3CF2B7C2E870095E8DF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CBF18CF82B7C334C000F7E58 /* MoreQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreQuestions.swift; sourceTree = "<group>"; };
 		CBF2B3AB2B7C2A7F0095E8DF /* Do you remember Mayberry?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Do you remember Mayberry?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF2B3AE2B7C2A7F0095E8DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBF2B3B02B7C2A7F0095E8DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CBF2B3B22B7C2A7F0095E8DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBF2B3B52B7C2A7F0095E8DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CBF2B3B72B7C2A820095E8DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBF2B3B22B7C2A7F0095E8DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CBF2B3BA2B7C2A820095E8DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CBF2B3BC2B7C2A820095E8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF2B3C22B7C2AEF0095E8DF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CBF2B3C42B7C2B050095E8DF /* QuizEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEngine.swift; sourceTree = "<group>"; };
+		CBF2B3C92B7C2D750095E8DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Do You Remember Mayberry/MayberryTrivia/View/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		CBF2B3CB2B7C2E0E0095E8DF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../Do You Remember Mayberry/MayberryTrivia/View/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		CBF2B3CD2B7C2E490095E8DF /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = assets.xcassets; path = "../../Do You Remember Mayberry/MayberryTrivia/assets.xcassets"; sourceTree = "<group>"; };
+		CBF2B3CF2B7C2E870095E8DF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../Do You Remember Mayberry/MayberryTrivia/View/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		CBF2B3D12B7C2E950095E8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF2B3D42B7C2F1A0095E8DF /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +67,45 @@
 		CBF2B3AD2B7C2A7F0095E8DF /* Do you remember Mayberry? */ = {
 			isa = PBXGroup;
 			children = (
-				CBF2B3AE2B7C2A7F0095E8DF /* AppDelegate.swift */,
-				CBF2B3B02B7C2A7F0095E8DF /* SceneDelegate.swift */,
-				CBF2B3B22B7C2A7F0095E8DF /* ViewController.swift */,
-				CBF2B3B42B7C2A7F0095E8DF /* Main.storyboard */,
-				CBF2B3B72B7C2A820095E8DF /* Assets.xcassets */,
-				CBF2B3B92B7C2A820095E8DF /* LaunchScreen.storyboard */,
-				CBF2B3BC2B7C2A820095E8DF /* Info.plist */,
+				CBF2B3D32B7C2EE20095E8DF /* Mayberry Trivia */,
+				CBF2B3CD2B7C2E490095E8DF /* assets.xcassets */,
 			);
 			path = "Do you remember Mayberry?";
+			sourceTree = "<group>";
+		};
+		CBF2B3C62B7C2B290095E8DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBF2B3C42B7C2B050095E8DF /* QuizEngine.swift */,
+				CBF18CF82B7C334C000F7E58 /* MoreQuestions.swift */,
+				CBF2B3C22B7C2AEF0095E8DF /* Question.swift */,
+				CBF2B3CB2B7C2E0E0095E8DF /* Main.storyboard */,
+				CBF2B3CF2B7C2E870095E8DF /* Main.storyboard */,
+				CBF2B3C82B7C2D750095E8DF /* Main.storyboard */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CBF2B3C72B7C2B3C0095E8DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBF2B3B22B7C2A7F0095E8DF /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBF2B3D32B7C2EE20095E8DF /* Mayberry Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				CBF2B3AE2B7C2A7F0095E8DF /* AppDelegate.swift */,
+				CBF2B3B02B7C2A7F0095E8DF /* SceneDelegate.swift */,
+				CBF2B3C62B7C2B290095E8DF /* Model */,
+				CBF2B3C72B7C2B3C0095E8DF /* View */,
+				CBF2B3D42B7C2F1A0095E8DF /* assets.xcassets */,
+				CBF2B3B92B7C2A820095E8DF /* LaunchScreen.storyboard */,
+				CBF2B3D12B7C2E950095E8DF /* Info.plist */,
+			);
+			path = "Mayberry Trivia";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +166,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF2B3D02B7C2E870095E8DF /* Main.storyboard in Resources */,
 				CBF2B3BB2B7C2A820095E8DF /* LaunchScreen.storyboard in Resources */,
-				CBF2B3B82B7C2A820095E8DF /* Assets.xcassets in Resources */,
-				CBF2B3B62B7C2A7F0095E8DF /* Main.storyboard in Resources */,
+				CBF2B3CE2B7C2E490095E8DF /* assets.xcassets in Resources */,
+				CBF2B3CA2B7C2D750095E8DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +180,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF2B3B32B7C2A7F0095E8DF /* ViewController.swift in Sources */,
+				CBF2B3B32B7C2A7F0095E8DF /* MainViewController.swift in Sources */,
+				CBF2B3C32B7C2AEF0095E8DF /* Question.swift in Sources */,
 				CBF2B3AF2B7C2A7F0095E8DF /* AppDelegate.swift in Sources */,
+				CBF2B3C52B7C2B050095E8DF /* QuizEngine.swift in Sources */,
+				CBF18CF92B7C334C000F7E58 /* MoreQuestions.swift in Sources */,
 				CBF2B3B12B7C2A7F0095E8DF /* SceneDelegate.swift in Sources */,
+				CBF2B3CC2B7C2E0E0095E8DF /* Main.storyboard in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CBF2B3B42B7C2A7F0095E8DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBF2B3B52B7C2A7F0095E8DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CBF2B3B92B7C2A820095E8DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CBF2B3BA2B7C2A820095E8DF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CBF2B3C82B7C2D750095E8DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF2B3C92B7C2D750095E8DF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
